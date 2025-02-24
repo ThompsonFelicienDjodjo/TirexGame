@@ -80,9 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     }
 
+    generationObstacles()
 
 
-
+    document.addEventListener('keydown', control)
 
 
 
