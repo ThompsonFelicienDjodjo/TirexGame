@@ -1,0 +1,36 @@
+
+@keyframes mouvementADroite {
+    from{
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+
+#desert{
+    position: absolute;
+    background-image: url("../image/th (2).jpg");
+    height: 700px;
+    width: 100%;
+    animation: mouvementADroite 1000s infinite linear;
+    bottom: 0;
+}
+
+.dino{
+    background-image: url("../image/th.jpg");
+    height: 95px;
+    width: 70px;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.obstacle{
+    background-image: url("../image/th (1).jpg");
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+}
